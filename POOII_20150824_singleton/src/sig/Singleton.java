@@ -2,14 +2,14 @@ package sig;
 
 public class Singleton {
 
-    private Singleton self = null;
+    private static Singleton self = null;
     private String texto;
 
-    public Singleton getInstance() {
-        if (this.self == null)
-            this.self = new Singleton();
+    public static Singleton getInstance() {
+        if (self == null)
+            self = new Singleton();
 
-        return this.self;
+        return self;
     }
 
     private Singleton() {}
