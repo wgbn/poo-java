@@ -1,18 +1,16 @@
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class AcessoBanco {
     private String login    = "";
     private String password = "";
-    private String driver   = "sun.jdbc.odbc.JdbcOdbcDriver";
-    private String url      = "jdbc:odbc:Driver={Microsoft Access (*.mdb)};DBQ=/home/walter/clientes.mdb";
+    private String driver   = "net.ucanaccess.jdbc.UcanaccessDriver";
+    private String url      = "jdbc:ucanaccess:///home/walter/clientes.mdb";
     private Connection connection;
 
     public void criaAbreConexao() {
         try {
-            Class.forName(driver);
-            connection = DriverManager.getConnection(url, login, password);
+            Class.forName(this.driver);
+            this.connection = DriverManager.getConnection(this.url, this.login, this.password);
         } catch (ClassNotFoundException cnfe) {
             System.err.println("Driver não encontrado\n" + cnfe);
         } catch (SQLException sqle) {
@@ -27,9 +25,25 @@ public class AcessoBanco {
 
     public void fechaConexao() {
         try {
-            connection.close();
+            this.connection.close();
         } catch (SQLException sqle) {
             System.err.println("Erro ao tentar fechar o banco de dados\n" + sqle);
+        }
+    }
+
+    public void recuperaRegistros(){
+        String sql = "select codigo, nome from clientes";
+        try {
+            Statement st = this.connection.createStatement();
+            ResultSet rs = st.executeQuery(sql);
+
+            while(rs.next()){
+                System.out.println(rs.getInt("codigo")+"\t"+rs.getString("nome"));
+            }
+            rs.close();
+            st.close();
+        } catch (SQLException e){
+            System.err.println("Erro: "+e.getMessage());
         }
     }
 }

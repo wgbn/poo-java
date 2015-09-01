@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jackcess-2.1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/UCanAccess-3.0.0-bin/lib/jackcess-2.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

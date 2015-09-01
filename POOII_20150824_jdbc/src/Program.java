@@ -7,6 +7,7 @@ public class Program {
         acessobanco.criaAbreConexao();
         System.out.println("Conexão realizada com sucesso\n\n\n");
         System.out.println("Tentando fechar a conexão\n");
+        acessobanco.recuperaRegistros();
         acessobanco.fechaConexao();
         System.out.println("Conexão finalizada... OK");
 
