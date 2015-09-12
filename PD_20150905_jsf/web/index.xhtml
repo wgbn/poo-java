@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <h:panelGrid columns="1">
+                <h:outputLabel value="Valor 1"/>
+                <h:inputText value="#{calcBean.valor1}"/>
+                <h:outputLabel value="Valor 2"/>
+                <h:inputText value="#{calcBean.valor2}"/>
+                <h:outputLabel value="Operador"/>
+                <h:selectOneMenu value="#{calcBean.operador}">
+                    <f:selectItem itemLabel="Somar" itemValue="+"/>
+                    <f:selectItem itemLabel="Subtrair" itemValue="-"/>
+                    <f:selectItem itemLabel="Multiplicar" itemValue="*"/>
+                    <f:selectItem itemLabel="Dividr" itemValue="/"/>
+                </h:selectOneMenu>
+                <h:outputLabel value="Resultado"/>
+                <h:inputText value="#{calcBean.resultado}"/>
+                <h:commandButton value="Calcular" action="#{calcBean.calcular()}"/>
+            </h:panelGrid>
+        </h:form>
+    </h:body>
+</html>
+
