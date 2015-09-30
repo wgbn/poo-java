@@ -23,6 +23,6 @@
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>semjsf.wgbn</welcome-file>
+        <welcome-file>inicio.wgbn</welcome-file>
     </welcome-file-list>
 </web-app>
