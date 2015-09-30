@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb902e77-e95c-4c83-a743-9eb1faf5d891" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/build/classes/.netbeans_automatic_build" afterPath="$PROJECT_DIR$/../PD20150808_01/build/classes/.netbeans_automatic_build" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/build/classes/.netbeans_automatic_build" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/build/classes/.netbeans_automatic_build" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/build/classes/.netbeans_automatic_build" afterPath="$PROJECT_DIR$/../PD20150815_Socket/build/classes/.netbeans_automatic_build" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/build/classes/.netbeans_automatic_build" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/build/classes/.netbeans_automatic_build" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/build/classes/.netbeans_automatic_build" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/build/classes/.netbeans_automatic_build" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/build/classes/.netbeans_update_resources" afterPath="$PROJECT_DIR$/../PD20150808_01/build/classes/.netbeans_update_resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/build/classes/.netbeans_update_resources" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/build/classes/.netbeans_update_resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/build/classes/.netbeans_update_resources" afterPath="$PROJECT_DIR$/../PD20150815_Socket/build/classes/.netbeans_update_resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/build/classes/.netbeans_update_resources" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/build/classes/.netbeans_update_resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/build/classes/.netbeans_update_resources" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/build/classes/.netbeans_update_resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/out/production/POOII_20150824_jdbc/AcessoBanco.class" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/out/production/POOII_20150824_jdbc/AcessoBanco.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/Agenda.class" afterPath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/Agenda.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/AgendaList.class" afterPath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/AgendaList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/AgendaList.class" afterPath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/AgendaList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/bin/AgendaList.class" afterPath="$PROJECT_DIR$/../pooAgenda/bin/AgendaList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/out/production/pooAgenda/AgendaList.class" afterPath="$PROJECT_DIR$/../pooAgenda/out/production/pooAgenda/AgendaList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/AgendaMap.class" afterPath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/AgendaMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/AgendaMap.class" afterPath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/AgendaMap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/out/production/albumDeFigurinhas/AlbumCopa.class" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/out/production/albumDeFigurinhas/AlbumCopa.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/out/production/albumDeFigurinhas/AlbumUsuario.class" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/out/production/albumDeFigurinhas/AlbumUsuario.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/build/classes/br/ba/senai/beans/Aluno.class" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/build/classes/br/ba/senai/beans/Aluno.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/Arquivo.class" afterPath="$PROJECT_DIR$/../prova1/Arquivo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/build/classes/Banco.class" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/build/classes/Banco.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CD.class" afterPath="$PROJECT_DIR$/../CD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/out/production/POO-II_20150817_tratamento_excecoes/excecao/Calc.class" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/out/production/POO-II_20150817_tratamento_excecoes/excecao/Calc.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Carro.class" afterPath="$PROJECT_DIR$/../Carro.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CarroFlexPower.class" afterPath="$PROJECT_DIR$/../CarroFlexPower.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CarroNormal.class" afterPath="$PROJECT_DIR$/../CarroNormal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Carros.class" afterPath="$PROJECT_DIR$/../Carros.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/build/classes/ClienteData.class" afterPath="$PROJECT_DIR$/../PD20150815_Socket/build/classes/ClienteData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../conexao_mysql/out/production/conexao_mysql/ConexaoMySql.class" afterPath="$PROJECT_DIR$/../conexao_mysql/out/production/conexao_mysql/ConexaoMySql.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Console.class" afterPath="$PROJECT_DIR$/../Console.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/Console.class" afterPath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/Console.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Conta.class" afterPath="$PROJECT_DIR$/../Conta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/build/classes/Conta.class" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/build/classes/Conta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ContaCorrente.class" afterPath="$PROJECT_DIR$/../ContaCorrente.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ContaPoupanca.class" afterPath="$PROJECT_DIR$/../ContaPoupanca.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/Contato.class" afterPath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/Contato.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/Contato.class" afterPath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/Contato.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/bin/Contato.class" afterPath="$PROJECT_DIR$/../pooAgenda/bin/Contato.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/out/production/pooAgenda/Contato.class" afterPath="$PROJECT_DIR$/../pooAgenda/out/production/pooAgenda/Contato.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/out/production/POO-II_20150817_tratamento_excecoes/excecao/DivPorZero.class" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/out/production/POO-II_20150817_tratamento_excecoes/excecao/DivPorZero.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/out/production/POO-II_20150817_tratamento_excecoes/excecao/Divisao.class" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/out/production/POO-II_20150817_tratamento_excecoes/excecao/Divisao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/out/production/adapter/DoisPontos.class" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/out/production/adapter/DoisPontos.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Email.class" afterPath="$PROJECT_DIR$/../Email.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/ExpressaoAnd.class" afterPath="$PROJECT_DIR$/../prova1/ExpressaoAnd.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/ExpressaoBooleana.class" afterPath="$PROJECT_DIR$/../prova1/ExpressaoBooleana.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/ExpressaoOr.class" afterPath="$PROJECT_DIR$/../prova1/ExpressaoOr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/FabricaAgenda.class" afterPath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/FabricaAgenda.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_singleton/out/production/PP_20150819_singleton/FabricaAgenda.class" afterPath="$PROJECT_DIR$/../PP_20150819_singleton/out/production/PP_20150819_singleton/FabricaAgenda.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/FastInoset.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/FastInoset.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/out/production/adapter/FiguraGeometrica.class" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/out/production/adapter/FiguraGeometrica.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/out/production/adapter/FiguraLosango.class" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/out/production/adapter/FiguraLosango.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/out/production/adapter/FiguraTriangulo.class" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/out/production/adapter/FiguraTriangulo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/out/production/albumDeFigurinhas/Figurinha.class" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/out/production/albumDeFigurinhas/Figurinha.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/out/production/ProvaAv3/br/com/wgbn/GerenciandoSensores.class" afterPath="$PROJECT_DIR$/../ProvaAv3/out/production/ProvaAv3/br/com/wgbn/GerenciandoSensores.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HD.class" afterPath="$PROJECT_DIR$/../HD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/out/production/PD_20150822_servlet_arquivo/example/HelloWorld.class" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/out/production/PD_20150822_servlet_arquivo/example/HelloWorld.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/IF_Agenda.class" afterPath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/IF_Agenda.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/bin/IF_Agenda.class" afterPath="$PROJECT_DIR$/../pooAgenda/bin/IF_Agenda.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/out/production/pooAgenda/IF_Agenda.class" afterPath="$PROJECT_DIR$/../pooAgenda/out/production/pooAgenda/IF_Agenda.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/IF_Contato.class" afterPath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/IF_Contato.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/IF_Contato.class" afterPath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/IF_Contato.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/bin/IF_Contato.class" afterPath="$PROJECT_DIR$/../pooAgenda/bin/IF_Contato.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/out/production/pooAgenda/IF_Contato.class" afterPath="$PROJECT_DIR$/../pooAgenda/out/production/pooAgenda/IF_Contato.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ImpostoCompleto.class" afterPath="$PROJECT_DIR$/../ImpostoCompleto.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ImpostoRenda.class" afterPath="$PROJECT_DIR$/../ImpostoRenda.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ImpostoSimplificado.class" afterPath="$PROJECT_DIR$/../ImpostoSimplificado.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Jogador.class" afterPath="$PROJECT_DIR$/../Jogador.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JogoDado.class" afterPath="$PROJECT_DIR$/../JogoDado.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JogoDoisDados.class" afterPath="$PROJECT_DIR$/../JogoDoisDados.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JogoUmDado.class" afterPath="$PROJECT_DIR$/../JogoUmDado.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Login.class" afterPath="$PROJECT_DIR$/../Login.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/out/production/adapter/Losango.class" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/out/production/adapter/Losango.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/Main.class" afterPath="$PROJECT_DIR$/../PP_20150819_factory/out/production/PP_20150819_factory/aplicacao/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/out/production/ProvaAv3/br/com/wgbn/Main.class" afterPath="$PROJECT_DIR$/../ProvaAv3/out/production/ProvaAv3/br/com/wgbn/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../conexao_mysql/out/production/conexao_mysql/Main.class" afterPath="$PROJECT_DIR$/../conexao_mysql/out/production/conexao_mysql/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MemoriaS.class" afterPath="$PROJECT_DIR$/../MemoriaS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Mensagem.class" afterPath="$PROJECT_DIR$/../Mensagem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MeusCarros.class" afterPath="$PROJECT_DIR$/../MeusCarros.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/build/classes/br/org/senai/pd/classes/MinhaSegunaThread.class" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/build/classes/br/org/senai/pd/classes/MinhaSegunaThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/build/classes/br/org/senai/pd/classes/MinhaThread.class" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/build/classes/br/org/senai/pd/classes/MinhaThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/out/production/albumDeFigurinhas/Pagina.class" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/out/production/albumDeFigurinhas/Pagina.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Pessoa.class" afterPath="$PROJECT_DIR$/../Pessoa.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ponto.class" afterPath="$PROJECT_DIR$/../Ponto.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ponto3D.class" afterPath="$PROJECT_DIR$/../Ponto3D.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/build/classes/PortScan.class" afterPath="$PROJECT_DIR$/../PD20150815_Socket/build/classes/PortScan.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/build/classes/br/org/fieb/senai/cimatec/pd/telas/Principal.class" afterPath="$PROJECT_DIR$/../PD20150808_01/build/classes/br/org/fieb/senai/cimatec/pd/telas/Principal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/build/classes/br/org/senai/pd/classes/Principal.class" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/build/classes/br/org/senai/pd/classes/Principal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/build/classes/br/org/fieb/senai/cimatec/pd/telas/Principal2.class" afterPath="$PROJECT_DIR$/../PD20150808_01/build/classes/br/org/fieb/senai/cimatec/pd/telas/Principal2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/build/classes/br/org/fieb/senai/cimatec/pd/telas/Principal3.class" afterPath="$PROJECT_DIR$/../PD20150808_01/build/classes/br/org/fieb/senai/cimatec/pd/telas/Principal3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/out/production/POOII_20150824_jdbc/Program.class" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/out/production/POOII_20150824_jdbc/Program.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_singleton/out/production/POOII_20150824_singleton/Program.class" afterPath="$PROJECT_DIR$/../POOII_20150824_singleton/out/production/POOII_20150824_singleton/Program.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Programa.class" afterPath="$PROJECT_DIR$/../Programa.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/Programa.class" afterPath="$PROJECT_DIR$/../prova1/Programa.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/ProgramaC.class" afterPath="$PROJECT_DIR$/../prova1/ProgramaC.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/ProgramaJava.class" afterPath="$PROJECT_DIR$/../prova1/ProgramaJava.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/Questao1.class" afterPath="$PROJECT_DIR$/../prova1/Questao1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/out/production/ProvaAv3/br/com/wgbn/Sala.class" afterPath="$PROJECT_DIR$/../ProvaAv3/out/production/ProvaAv3/br/com/wgbn/Sala.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/out/production/ProvaAv3/br/com/wgbn/Sensores.class" afterPath="$PROJECT_DIR$/../ProvaAv3/out/production/ProvaAv3/br/com/wgbn/Sensores.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Servico.class" afterPath="$PROJECT_DIR$/../Servico.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/build/classes/ServidorData.class" afterPath="$PROJECT_DIR$/../PD20150815_Socket/build/classes/ServidorData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_singleton/out/production/POOII_20150824_singleton/sig/Singleton.class" afterPath="$PROJECT_DIR$/../POOII_20150824_singleton/out/production/POOII_20150824_singleton/sig/Singleton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Sms.class" afterPath="$PROJECT_DIR$/../Sms.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/out/production/POO-II_20150817_tratamento_excecoes/excecao/Testa.class" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/out/production/POO-II_20150817_tratamento_excecoes/excecao/Testa.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/build/classes/TestaBanco.class" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/build/classes/TestaBanco.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestaConta.class" afterPath="$PROJECT_DIR$/../TestaConta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/build/classes/br/org/senai/pd/classes/TestaSegundaThread.class" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/build/classes/br/org/senai/pd/classes/TestaSegundaThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_singleton/out/production/PP_20150819_singleton/TesteAgenda.class" afterPath="$PROJECT_DIR$/../PP_20150819_singleton/out/production/PP_20150819_singleton/TesteAgenda.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/bin/TesteList.class" afterPath="$PROJECT_DIR$/../pooAgenda/bin/TesteList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/out/production/pooAgenda/TesteList.class" afterPath="$PROJECT_DIR$/../pooAgenda/out/production/pooAgenda/TesteList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TesteMemoria.class" afterPath="$PROJECT_DIR$/../TesteMemoria.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/build/classes/br/ba/senai/principal/UsandoListas.class" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/build/classes/br/ba/senai/principal/UsandoListas.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/build/classes/br/ba/senai/principal/UsandoMapas.class" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/build/classes/br/ba/senai/principal/UsandoMapas.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/build/classes/br/ba/senai/principal/UsandoSET.class" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/build/classes/br/ba/senai/principal/UsandoSET.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/out/production/POO-II_20150817_tratamento_excecoes/excecao/Zero.class" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/out/production/POO-II_20150817_tratamento_excecoes/excecao/Zero.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/lib/commons-lang-2.6.jar" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/lib/commons-lang-2.6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/lib/commons-logging-1.1.1.jar" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/lib/commons-logging-1.1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/out/production/adapter/exercicioAdapter.class" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/out/production/adapter/exercicioAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/gmbal-api-only.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/gmbal-api-only.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/ha-api.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/ha-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/lib/hsqldb.jar" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/lib/hsqldb.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/lib/jackcess-2.1.2.jar" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/lib/jackcess-2.1.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/javax.annotation.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/javax.annotation.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/jaxb-api.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/jaxb-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/jaxb-impl.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/jaxb-impl.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/jaxb-xjc.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/jaxb-xjc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/jaxws-api.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/jaxws-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/jaxws-rt.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/jaxws-rt.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/jaxws-tools.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/jaxws-tools.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/jsr181-api.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/jsr181-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/mail.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/mail.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/management-api.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/management-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/mimepull.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/mimepull.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../conexao_mysql/libs/mysql-connector-java-5.1.36-bin.jar" afterPath="$PROJECT_DIR$/../conexao_mysql/libs/mysql-connector-java-5.1.36-bin.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/pessoas.db" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/pessoas.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/policy.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/policy.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/saaj-api.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/saaj-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/saaj-impl.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/saaj-impl.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/sqlite-jdbc-3.7.2.jar" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/sqlite-jdbc-3.7.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/stax-ex.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/stax-ex.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/stax2-api.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/stax2-api.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/streambuffer.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/streambuffer.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/ucanaccess-3.0.0.jar" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/ucanaccess-3.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/woodstox-core-asl.jar" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/lib/woodstox-core-asl.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.classpath" afterPath="$PROJECT_DIR$/../.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/.classpath" afterPath="$PROJECT_DIR$/../pooAgenda/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/.name" afterPath="$PROJECT_DIR$/../.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/.name" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/.name" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/.name" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/.name" afterPath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/.name" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/.idea/.name" afterPath="$PROJECT_DIR$/../POO_Agenda/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/.idea/.name" afterPath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/.idea/.name" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/.idea/.name" afterPath="$PROJECT_DIR$/../PP_20150819_factory/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_singleton/.idea/.name" afterPath="$PROJECT_DIR$/../PP_20150819_singleton/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150909_template_method/.idea/.name" afterPath="$PROJECT_DIR$/../PP_20150909_template_method/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/.idea/.name" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../conexao_mysql/.idea/.name" afterPath="$PROJECT_DIR$/../conexao_mysql/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/.idea/.name" afterPath="$PROJECT_DIR$/../pooAgenda/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.project" afterPath="$PROJECT_DIR$/../.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/.project" afterPath="$PROJECT_DIR$/../pooAgenda/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/src/AcessoBanco.java" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/src/AcessoBanco.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/src/AcessoDAO.java" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/src/AcessoDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/Agenda.java" afterPath="$PROJECT_DIR$/../POO_Agenda/Agenda.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/AgendaList.java" afterPath="$PROJECT_DIR$/../POO_Agenda/AgendaList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/src/AgendaList.java" afterPath="$PROJECT_DIR$/../pooAgenda/src/AgendaList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/AgendaMap.java" afterPath="$PROJECT_DIR$/../POO_Agenda/AgendaMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/src/AlbumCopa.java" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/src/AlbumCopa.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/src/AlbumUsuario.java" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/src/AlbumUsuario.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/src/br/ba/senai/beans/Aluno.java" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/src/br/ba/senai/beans/Aluno.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/Arquivo.java" afterPath="$PROJECT_DIR$/../prova1/Arquivo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/src/Banco.java" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/src/Banco.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/src/BeanCimatec.java" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/src/BeanCimatec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CD.java" afterPath="$PROJECT_DIR$/../CD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/src/excecao/Calc.java" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/src/excecao/Calc.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf/src/java/CalculadoraBean.java" afterPath="$PROJECT_DIR$/../PD_20150905_jsf/src/java/CalculadoraBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Carro.java" afterPath="$PROJECT_DIR$/../Carro.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CarroFlexPower.java" afterPath="$PROJECT_DIR$/../CarroFlexPower.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CarroNormal.java" afterPath="$PROJECT_DIR$/../CarroNormal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Carros.java" afterPath="$PROJECT_DIR$/../Carros.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/src/ClienteData.java" afterPath="$PROJECT_DIR$/../PD20150815_Socket/src/ClienteData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../conexao_mysql/src/ConexaoMySql.java" afterPath="$PROJECT_DIR$/../conexao_mysql/src/ConexaoMySql.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Console.java" afterPath="$PROJECT_DIR$/../Console.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Conta.java" afterPath="$PROJECT_DIR$/../Conta.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/src/Conta.java" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/src/Conta.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ContaCorrente.java" afterPath="$PROJECT_DIR$/../ContaCorrente.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ContaPoupanca.java" afterPath="$PROJECT_DIR$/../ContaPoupanca.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/Contato.java" afterPath="$PROJECT_DIR$/../POO_Agenda/Contato.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/src/Contato.java" afterPath="$PROJECT_DIR$/../pooAgenda/src/Contato.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/src/excecao/DivPorZero.java" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/src/excecao/DivPorZero.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/src/excecao/Divisao.java" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/src/excecao/Divisao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/src/DoisPontos.java" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/src/DoisPontos.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Email.java" afterPath="$PROJECT_DIR$/../Email.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/ExpressaoAnd.java" afterPath="$PROJECT_DIR$/../prova1/ExpressaoAnd.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/ExpressaoBooleana.java" afterPath="$PROJECT_DIR$/../prova1/ExpressaoBooleana.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/ExpressaoOr.java" afterPath="$PROJECT_DIR$/../prova1/ExpressaoOr.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_singleton/src/FabricaAgenda.java" afterPath="$PROJECT_DIR$/../PP_20150819_singleton/src/FabricaAgenda.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/src/FiguraGeometrica.java" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/src/FiguraGeometrica.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/src/FiguraLosango.java" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/src/FiguraLosango.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/src/FiguraTriangulo.java" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/src/FiguraTriangulo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/src/Figurinha.java" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/src/Figurinha.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/src/br/com/wgbn/GerenciandoSensores.java" afterPath="$PROJECT_DIR$/../ProvaAv3/src/br/com/wgbn/GerenciandoSensores.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HD.java" afterPath="$PROJECT_DIR$/../HD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/src/example/HelloWorld.java" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/src/example/HelloWorld.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/src/IF_Agenda.java" afterPath="$PROJECT_DIR$/../pooAgenda/src/IF_Agenda.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/IF_Contato.java" afterPath="$PROJECT_DIR$/../POO_Agenda/IF_Contato.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/src/IF_Contato.java" afterPath="$PROJECT_DIR$/../pooAgenda/src/IF_Contato.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ImpostoCompleto.java" afterPath="$PROJECT_DIR$/../ImpostoCompleto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ImpostoRenda.java" afterPath="$PROJECT_DIR$/../ImpostoRenda.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ImpostoSimplificado.java" afterPath="$PROJECT_DIR$/../ImpostoSimplificado.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/src/InterfaceAcessoDAO.java" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/src/InterfaceAcessoDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/libraries/JAX_WS_Glassfish___JAX_WS_2_2_RI___Metro_1_X___JWSDP_2_2.xml" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/libraries/JAX_WS_Glassfish___JAX_WS_2_2_RI___Metro_1_X___JWSDP_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Jogador.java" afterPath="$PROJECT_DIR$/../Jogador.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JogoDado.java" afterPath="$PROJECT_DIR$/../JogoDado.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JogoDoisDados.java" afterPath="$PROJECT_DIR$/../JogoDoisDados.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JogoUmDado.java" afterPath="$PROJECT_DIR$/../JogoUmDado.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Login.java" afterPath="$PROJECT_DIR$/../Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/src/Losango.java" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/src/Losango.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_introducao/src/conf/MANIFEST.MF" afterPath="$PROJECT_DIR$/../PD20150822_servlet_introducao/src/conf/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf/src/conf/MANIFEST.MF" afterPath="$PROJECT_DIR$/../PD_20150905_jsf/src/conf/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf_produto/src/conf/MANIFEST.MF" afterPath="$PROJECT_DIR$/../PD_20150905_jsf_produto/src/conf/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/src/aplicacao/Main.java" afterPath="$PROJECT_DIR$/../PP_20150819_factory/src/aplicacao/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/src/br/com/wgbn/Main.java" afterPath="$PROJECT_DIR$/../ProvaAv3/src/br/com/wgbn/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../conexao_mysql/src/Main.java" afterPath="$PROJECT_DIR$/../conexao_mysql/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MemoriaS.java" afterPath="$PROJECT_DIR$/../MemoriaS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Mensagem.java" afterPath="$PROJECT_DIR$/../Mensagem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/src/example/MeuServlet.java" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/src/example/MeuServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MeusCarros.java" afterPath="$PROJECT_DIR$/../MeusCarros.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/src/br/org/senai/pd/classes/MinhaSegunaThread.java" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/src/br/org/senai/pd/classes/MinhaSegunaThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_introducao/src/java/MinhaServlet.java" afterPath="$PROJECT_DIR$/../PD20150822_servlet_introducao/src/java/MinhaServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/src/br/org/senai/pd/classes/MinhaThread.java" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/src/br/org/senai/pd/classes/MinhaThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_calculadora/.idea/PD20150822_servlet_calculadora.iml" afterPath="$PROJECT_DIR$/../PD20150822_servlet_calculadora/.idea/PD20150822_servlet_calculadora.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/PD_20150822_servlet_arquivo.iml" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/PD_20150822_servlet_arquivo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/artifacts/PD_20150822_servlet_arquivo_war_exploded.xml" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/artifacts/PD_20150822_servlet_arquivo_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/POO-II_20150817_tratamento_excecoes.iml" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/POO-II_20150817_tratamento_excecoes.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/POOII_20150824_jdbc.iml" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/POOII_20150824_jdbc.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_singleton/POOII_20150824_singleton.iml" afterPath="$PROJECT_DIR$/../POOII_20150824_singleton/POOII_20150824_singleton.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/POOII_20150831_dao_dto.iml" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/POOII_20150831_dao_dto.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/artifacts/POOII_20150831_dao_dto_war_exploded.xml" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/artifacts/POOII_20150831_dao_dto_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/POO_Agenda.iml" afterPath="$PROJECT_DIR$/../POO_Agenda/POO_Agenda.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/POO_Agenda.iml" afterPath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/POO_Agenda.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/PP_20150819_factory.iml" afterPath="$PROJECT_DIR$/../PP_20150819_factory/PP_20150819_factory.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_singleton/PP_20150819_singleton.iml" afterPath="$PROJECT_DIR$/../PP_20150819_singleton/PP_20150819_singleton.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/src/Pagina.java" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/src/Pagina.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Pessoa.java" afterPath="$PROJECT_DIR$/../Pessoa.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ponto.java" afterPath="$PROJECT_DIR$/../Ponto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ponto3D.java" afterPath="$PROJECT_DIR$/../Ponto3D.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/src/PortScan.java" afterPath="$PROJECT_DIR$/../PD20150815_Socket/src/PortScan.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/src/br/org/fieb/senai/cimatec/pd/telas/Principal.java" afterPath="$PROJECT_DIR$/../PD20150808_01/src/br/org/fieb/senai/cimatec/pd/telas/Principal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/src/br/org/senai/pd/classes/Principal.java" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/src/br/org/senai/pd/classes/Principal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/src/br/org/fieb/senai/cimatec/pd/telas/Principal2.java" afterPath="$PROJECT_DIR$/../PD20150808_01/src/br/org/fieb/senai/cimatec/pd/telas/Principal2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/src/br/org/fieb/senai/cimatec/pd/telas/Principal3.java" afterPath="$PROJECT_DIR$/../PD20150808_01/src/br/org/fieb/senai/cimatec/pd/telas/Principal3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf_produto/src/java/Produto.java" afterPath="$PROJECT_DIR$/../PD_20150905_jsf_produto/src/java/Produto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf_produto/src/java/ProdutoBean.java" afterPath="$PROJECT_DIR$/../PD_20150905_jsf_produto/src/java/ProdutoBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/src/Program.java" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/src/Program.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_singleton/src/Program.java" afterPath="$PROJECT_DIR$/../POOII_20150824_singleton/src/Program.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Programa.java" afterPath="$PROJECT_DIR$/../Programa.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/Programa.java" afterPath="$PROJECT_DIR$/../prova1/Programa.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/ProgramaC.java" afterPath="$PROJECT_DIR$/../prova1/ProgramaC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/ProgramaJava.java" afterPath="$PROJECT_DIR$/../prova1/ProgramaJava.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/ProvaAv3.iml" afterPath="$PROJECT_DIR$/../ProvaAv3/ProvaAv3.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../prova1/Questao1.java" afterPath="$PROJECT_DIR$/../prova1/Questao1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/src/br/com/wgbn/Sala.java" afterPath="$PROJECT_DIR$/../ProvaAv3/src/br/com/wgbn/Sala.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/src/br/com/wgbn/Sensores.java" afterPath="$PROJECT_DIR$/../ProvaAv3/src/br/com/wgbn/Sensores.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Servico.java" afterPath="$PROJECT_DIR$/../Servico.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/src/ServidorData.java" afterPath="$PROJECT_DIR$/../PD20150815_Socket/src/ServidorData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_singleton/src/sig/Singleton.java" afterPath="$PROJECT_DIR$/../POOII_20150824_singleton/src/sig/Singleton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Sms.java" afterPath="$PROJECT_DIR$/../Sms.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/src/TbPessoaDTO.java" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/src/TbPessoaDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/src/excecao/Testa.java" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/src/excecao/Testa.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/src/TestaBanco.java" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/src/TestaBanco.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TestaConta.java" afterPath="$PROJECT_DIR$/../TestaConta.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/src/br/org/senai/pd/classes/TestaSegundaThread.java" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/src/br/org/senai/pd/classes/TestaSegundaThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_singleton/src/TesteAgenda.java" afterPath="$PROJECT_DIR$/../PP_20150819_singleton/src/TesteAgenda.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/src/TesteList.java" afterPath="$PROJECT_DIR$/../pooAgenda/src/TesteList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TesteMemoria.java" afterPath="$PROJECT_DIR$/../TesteMemoria.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/src/br/ba/senai/principal/UsandoListas.java" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/src/br/ba/senai/principal/UsandoListas.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/src/br/ba/senai/principal/UsandoMapas.java" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/src/br/ba/senai/principal/UsandoMapas.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/src/br/ba/senai/principal/UsandoSET.java" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/src/br/ba/senai/principal/UsandoSET.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/src/excecao/Zero.java" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/src/excecao/Zero.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/adapter.iml" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/adapter.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/albumDeFigurinhas.iml" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/albumDeFigurinhas.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_introducao/nbproject/ant-deploy.xml" afterPath="$PROJECT_DIR$/../PD20150822_servlet_introducao/nbproject/ant-deploy.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf/nbproject/ant-deploy.xml" afterPath="$PROJECT_DIR$/../PD_20150905_jsf/nbproject/ant-deploy.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf_produto/nbproject/ant-deploy.xml" afterPath="$PROJECT_DIR$/../PD_20150905_jsf_produto/nbproject/ant-deploy.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/licenses/apache-license-2.0.txt" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/licenses/apache-license-2.0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/nbproject/build-impl.xml" afterPath="$PROJECT_DIR$/../PD20150808_01/nbproject/build-impl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/nbproject/build-impl.xml" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/nbproject/build-impl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/nbproject/build-impl.xml" afterPath="$PROJECT_DIR$/../PD20150815_Socket/nbproject/build-impl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/nbproject/build-impl.xml" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/nbproject/build-impl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_introducao/nbproject/build-impl.xml" afterPath="$PROJECT_DIR$/../PD20150822_servlet_introducao/nbproject/build-impl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf/nbproject/build-impl.xml" afterPath="$PROJECT_DIR$/../PD_20150905_jsf/nbproject/build-impl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf_produto/nbproject/build-impl.xml" afterPath="$PROJECT_DIR$/../PD_20150905_jsf_produto/nbproject/build-impl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/nbproject/build-impl.xml" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/nbproject/build-impl.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/build.xml" afterPath="$PROJECT_DIR$/../PD20150808_01/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/build.xml" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/build.xml" afterPath="$PROJECT_DIR$/../PD20150815_Socket/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/build.xml" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_introducao/build.xml" afterPath="$PROJECT_DIR$/../PD20150822_servlet_introducao/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf/build.xml" afterPath="$PROJECT_DIR$/../PD_20150905_jsf/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf_produto/build.xml" afterPath="$PROJECT_DIR$/../PD_20150905_jsf_produto/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/build.xml" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/libraries/commons_lang_2_6.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/libraries/commons_lang_2_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/libraries/commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/libraries/commons_logging_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/compiler.xml" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_calculadora/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../PD20150822_servlet_calculadora/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../POO_Agenda/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../PP_20150819_factory/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_singleton/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../PP_20150819_singleton/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150909_template_method/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../PP_20150909_template_method/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../ProvaAv3/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../conexao_mysql/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../conexao_mysql/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../pooAgenda/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../conexao_mysql/conexao_mysql.iml" afterPath="$PROJECT_DIR$/../conexao_mysql/conexao_mysql.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/nbproject/private/config.properties" afterPath="$PROJECT_DIR$/../PD20150808_01/nbproject/private/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/nbproject/private/config.properties" afterPath="$PROJECT_DIR$/../PD20150815_Socket/nbproject/private/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/console.bat" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/console.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/console.sh" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/console.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/.idea/description.html" afterPath="$PROJECT_DIR$/../ProvaAv3/.idea/description.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/src/exercicioAdapter.java" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/src/exercicioAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/nbproject/genfiles.properties" afterPath="$PROJECT_DIR$/../PD20150808_01/nbproject/genfiles.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/nbproject/genfiles.properties" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/nbproject/genfiles.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/nbproject/genfiles.properties" afterPath="$PROJECT_DIR$/../PD20150815_Socket/nbproject/genfiles.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/nbproject/genfiles.properties" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/nbproject/genfiles.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_introducao/nbproject/genfiles.properties" afterPath="$PROJECT_DIR$/../PD20150822_servlet_introducao/nbproject/genfiles.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf/nbproject/genfiles.properties" afterPath="$PROJECT_DIR$/../PD_20150905_jsf/nbproject/genfiles.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf_produto/nbproject/genfiles.properties" afterPath="$PROJECT_DIR$/../PD_20150905_jsf_produto/nbproject/genfiles.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/nbproject/genfiles.properties" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/nbproject/genfiles.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/libraries/hsqldb.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/libraries/hsqldb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/licenses/hsqldb_lic.txt" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/licenses/hsqldb_lic.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/licenses/hypersonic_lic.txt" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/licenses/hypersonic_lic.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_introducao/web/index.html" afterPath="$PROJECT_DIR$/../PD20150822_servlet_introducao/web/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150912_maven_web/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/../PD_20150912_maven_web/src/main/webapp/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/web/index.jsp" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/web/index.jsp" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf/web/index.xhtml" afterPath="$PROJECT_DIR$/../PD_20150905_jsf/web/index.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150912_maven_web/src/main/webapp/index.xhtml" afterPath="$PROJECT_DIR$/../PD_20150912_maven_web/src/main/webapp/index.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf_produto/web/inicio.xhtml" afterPath="$PROJECT_DIR$/../PD_20150905_jsf_produto/web/inicio.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/libraries/jackcess_2_1_2.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/libraries/jackcess_2_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/licenses/lgpl-2.1.txt" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/licenses/lgpl-2.1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/licenses/licenses.txt" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/licenses/licenses.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/manifest.mf" afterPath="$PROJECT_DIR$/../PD20150808_01/manifest.mf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/manifest.mf" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/manifest.mf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/manifest.mf" afterPath="$PROJECT_DIR$/../PD20150815_Socket/manifest.mf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/manifest.mf" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/manifest.mf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/manifest.mf" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/manifest.mf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/misc.xml" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_calculadora/.idea/misc.xml" afterPath="$PROJECT_DIR$/../PD20150822_servlet_calculadora/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/misc.xml" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/misc.xml" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/misc.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/misc.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/misc.xml" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/.idea/misc.xml" afterPath="$PROJECT_DIR$/../POO_Agenda/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/.idea/misc.xml" afterPath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/.idea/misc.xml" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/.idea/misc.xml" afterPath="$PROJECT_DIR$/../PP_20150819_factory/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_singleton/.idea/misc.xml" afterPath="$PROJECT_DIR$/../PP_20150819_singleton/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150909_template_method/.idea/misc.xml" afterPath="$PROJECT_DIR$/../PP_20150909_template_method/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/.idea/misc.xml" afterPath="$PROJECT_DIR$/../ProvaAv3/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/.idea/misc.xml" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../conexao_mysql/.idea/misc.xml" afterPath="$PROJECT_DIR$/../conexao_mysql/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/.idea/misc.xml" afterPath="$PROJECT_DIR$/../pooAgenda/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_calculadora/.idea/modules.xml" afterPath="$PROJECT_DIR$/../PD20150822_servlet_calculadora/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/modules.xml" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/modules.xml" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/modules.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/modules.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/modules.xml" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/.idea/modules.xml" afterPath="$PROJECT_DIR$/../POO_Agenda/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/.idea/modules.xml" afterPath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/.idea/modules.xml" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/.idea/modules.xml" afterPath="$PROJECT_DIR$/../PP_20150819_factory/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_singleton/.idea/modules.xml" afterPath="$PROJECT_DIR$/../PP_20150819_singleton/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150909_template_method/.idea/modules.xml" afterPath="$PROJECT_DIR$/../PP_20150909_template_method/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/.idea/modules.xml" afterPath="$PROJECT_DIR$/../ProvaAv3/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/.idea/modules.xml" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../conexao_mysql/.idea/modules.xml" afterPath="$PROJECT_DIR$/../conexao_mysql/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/.idea/modules.xml" afterPath="$PROJECT_DIR$/../pooAgenda/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../conexao_mysql/.idea/libraries/mysql_connector_java_5_1_36_bin.xml" afterPath="$PROJECT_DIR$/../conexao_mysql/.idea/libraries/mysql_connector_java_5_1_36_bin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150912_maven_web/nb-configuration.xml" afterPath="$PROJECT_DIR$/../PD_20150912_maven_web/nb-configuration.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/../pooAgenda/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150912_maven_web/pom.xml" afterPath="$PROJECT_DIR$/../PD_20150912_maven_web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/pooAgenda.iml" afterPath="$PROJECT_DIR$/../pooAgenda/pooAgenda.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/artifacts/poo_war_exploded.xml" afterPath="$PROJECT_DIR$/../.idea/artifacts/poo_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/nbproject/private/private.properties" afterPath="$PROJECT_DIR$/../PD20150808_01/nbproject/private/private.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/nbproject/private/private.properties" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/nbproject/private/private.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/nbproject/private/private.properties" afterPath="$PROJECT_DIR$/../PD20150815_Socket/nbproject/private/private.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/nbproject/private/private.properties" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/nbproject/private/private.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/nbproject/private/private.properties" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/nbproject/private/private.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/../PD20150808_01/nbproject/private/private.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/nbproject/private/private.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/../PD20150815_Socket/nbproject/private/private.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/nbproject/private/private.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/nbproject/private/private.xml" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/nbproject/private/private.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_calculadora/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../PD20150822_servlet_calculadora/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../POO_Agenda/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../PP_20150819_factory/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_singleton/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../PP_20150819_singleton/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150909_template_method/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../PP_20150909_template_method/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../ProvaAv3/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../conexao_mysql/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../conexao_mysql/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../pooAgenda/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/.idea/project-template.xml" afterPath="$PROJECT_DIR$/../ProvaAv3/.idea/project-template.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/nbproject/project.properties" afterPath="$PROJECT_DIR$/../PD20150808_01/nbproject/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/nbproject/project.properties" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/nbproject/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/nbproject/project.properties" afterPath="$PROJECT_DIR$/../PD20150815_Socket/nbproject/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/nbproject/project.properties" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/nbproject/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_introducao/nbproject/project.properties" afterPath="$PROJECT_DIR$/../PD20150822_servlet_introducao/nbproject/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf/nbproject/project.properties" afterPath="$PROJECT_DIR$/../PD_20150905_jsf/nbproject/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf_produto/nbproject/project.properties" afterPath="$PROJECT_DIR$/../PD_20150905_jsf_produto/nbproject/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/nbproject/project.properties" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/nbproject/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150808_01/nbproject/project.xml" afterPath="$PROJECT_DIR$/../PD20150808_01/nbproject/project.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_01_Threads/nbproject/project.xml" afterPath="$PROJECT_DIR$/../PD20150815_01_Threads/nbproject/project.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Socket/nbproject/project.xml" afterPath="$PROJECT_DIR$/../PD20150815_Socket/nbproject/project.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/nbproject/project.xml" afterPath="$PROJECT_DIR$/../PD20150815_Thread_concorrentes/nbproject/project.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_introducao/nbproject/project.xml" afterPath="$PROJECT_DIR$/../PD20150822_servlet_introducao/nbproject/project.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf/nbproject/project.xml" afterPath="$PROJECT_DIR$/../PD_20150905_jsf/nbproject/project.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf_produto/nbproject/project.xml" afterPath="$PROJECT_DIR$/../PD_20150905_jsf_produto/nbproject/project.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../UsandoColecoesPRJ/nbproject/project.xml" afterPath="$PROJECT_DIR$/../UsandoColecoesPRJ/nbproject/project.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/web/resposta.jsp" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/web/resposta.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf_produto/web/semjsf.xhtml" afterPath="$PROJECT_DIR$/../PD_20150905_jsf_produto/web/semjsf.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/libraries/sqlite_jdbc_3_7_2.xml" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/libraries/sqlite_jdbc_3_7_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/web/WEB-INF/sun-jaxws.xml" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/web/WEB-INF/sun-jaxws.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/libraries/ucanaccess_3_0_0.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/libraries/ucanaccess_3_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/../pooAgenda/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_calculadora/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../PD20150822_servlet_calculadora/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../POO_Agenda/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../PP_20150819_factory/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_singleton/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../PP_20150819_singleton/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150909_template_method/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../PP_20150909_template_method/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../ProvaAv3/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../conexao_mysql/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../conexao_mysql/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../pooAgenda/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/version.txt" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/lib/UCanAccess-3.0.0-bin/version.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_introducao/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../PD20150822_servlet_introducao/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../PD_20150905_jsf/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150905_jsf_produto/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../PD_20150905_jsf_produto/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150912_maven_web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../PD_20150912_maven_web/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150912_maven_web/src/main/webapp/welcomePrimefaces.xhtml" afterPath="$PROJECT_DIR$/../PD_20150912_maven_web/src/main/webapp/welcomePrimefaces.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD20150822_servlet_calculadora/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PD20150822_servlet_calculadora/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PD_20150822_servlet_arquivo/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../POO-II_20150817_tratamento_excecoes/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_jdbc/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../POOII_20150824_singleton/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../POOII_20150831_dao_dto/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../POO_Agenda/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../POO_Agenda/out/production/POO_Agenda/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150812_adapter/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PP_20150812_adapter/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_factory/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PP_20150819_factory/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150819_singleton/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PP_20150819_singleton/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PP_20150909_template_method/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PP_20150909_template_method/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ProvaAv3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ProvaAv3/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../albumDeFigurinhas/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../albumDeFigurinhas/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../conexao_mysql/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../conexao_mysql/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pooAgenda/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../pooAgenda/.idea/workspace.xml" />
+    </list>
+    <ignored path="intellij_wicket.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="intellij_wicket" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
+    <option name="width" value="1360" />
+    <option name="height" value="718" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij_wicket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij_wicket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij_wicket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij_wicket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intellij_wicket" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb902e77-e95c-4c83-a743-9eb1faf5d891" name="Default" comment="" />
+      <created>1442114375078</created>
+      <option name="number" value="Default" />
+      <updated>1442114375078</updated>
+      <workItem from="1442114384779" duration="1362000" />
+      <workItem from="1443576064421" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1392000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1360" height="718" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20106222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

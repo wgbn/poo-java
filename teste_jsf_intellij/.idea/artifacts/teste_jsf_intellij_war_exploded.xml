@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="teste_jsf_intellij:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/teste_jsf_intellij_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="teste_jsf_intellij/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="teste_jsf_intellij" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
