@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PD_20151003_jsf_primefaces_maven:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/PD_20151003_jsf_primefaces_maven_war</output-path>
+    <root id="archive" name="PD_20151003_jsf_primefaces_maven_war.war">
+      <element id="artifact" artifact-name="PD_20151003_jsf_primefaces_maven:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql:mysql-connector-java:5.1.36" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="PD_20151003_jsf_primefaces_maven:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/PD_20151003_jsf_primefaces_maven_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="PD_20151003_jsf_primefaces_maven" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Mojarra-2.2.1 (2)" />
+          <element id="library" level="project" name="PrimeFaces-5.2" />
+          <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+          <element id="library" level="project" name="PrimeFaces-5.2 (2)" />
+          <element id="library" level="project" name="jstl:jstl:1.2" />
+          <element id="library" level="project" name="Mojarra-2.2.1" />
+          <element id="library" level="project" name="mysql:mysql-connector-java:5.1.36" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="PD_20151003_jsf_primefaces_maven/web/Web" />
+    </root>
+  </artifact>
+</component>

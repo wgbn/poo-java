@@ -1,0 +1,8 @@
+.ui-widget {
+    font-size: 75%;
+}
+.themeMenu {
+    overflow: auto;
+    height: 300px;
+    width: 180px;
+}
