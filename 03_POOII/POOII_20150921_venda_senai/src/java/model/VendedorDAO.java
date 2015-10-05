@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  *
- * @author root
+ * @author Walter Gandarella
  */
 public class VendedorDAO extends DaoUtil {
     

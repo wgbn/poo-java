@@ -1,15 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package dto;
 
 import java.util.Date;
 
 /**
  *
- * @author root
+ * @author Walter Gandarella
  */
 public class TbVendedorDTO {
     private int idvendedor;
@@ -18,6 +13,10 @@ public class TbVendedorDTO {
     
     public TbVendedorDTO(){
         
+    }
+
+    public TbVendedorDTO(int idvendedor) {
+        this.idvendedor = idvendedor;
     }
 
     public TbVendedorDTO(int idvendedor, String nomevendedor, Date dtnascimento) {

@@ -1,13 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package dto;
 
 /**
  *
- * @author root
+ * @author Walter Gandarella
  */
 public class TbVendaDTO {
     private int idvenda;
@@ -17,6 +12,10 @@ public class TbVendaDTO {
     
     public TbVendaDTO(){
         
+    }
+
+    public TbVendaDTO(int idvenda) {
+        this.idvenda = idvenda;
     }
 
     public TbVendaDTO(int idvenda, TbVendedorDTO vendedor, TbProdutoDTO produto, int qtquantidade) {

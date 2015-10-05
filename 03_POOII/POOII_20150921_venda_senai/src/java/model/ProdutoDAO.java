@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  *
- * @author root
+ * @author Walter Gandarella
  */
 public class ProdutoDAO extends DaoUtil {
     
@@ -93,8 +93,8 @@ public class ProdutoDAO extends DaoUtil {
         return todosOsProdutos;
     }
     
-    public boolean setAlterarEstoque(TbProdutoDTO produto) throws ClassNotFoundException, SQLException {
-        PreparedStatement ps = super.getPrepareStatement("update TBPRODUTO set QTESTOQUE = QTESTOQUE - "+produto.getQtestoque()+" where IDPRODUTO = "+produto.getIdproduto());
+    public boolean setAlterarEstoque(TbProdutoDTO produto, String operacao) throws ClassNotFoundException, SQLException {
+        PreparedStatement ps = super.getPrepareStatement("update TBPRODUTO set QTESTOQUE = QTESTOQUE "+operacao+" "+produto.getQtestoque()+" where IDPRODUTO = "+produto.getIdproduto());
         int ret = ps.executeUpdate();
         ps.close();
         super.fechaTudo();
