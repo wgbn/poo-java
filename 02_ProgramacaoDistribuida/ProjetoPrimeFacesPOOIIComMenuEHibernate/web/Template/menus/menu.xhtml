@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>   
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">   
+<html xmlns="http://www.w3.org/1999/xhtml"   
+    xmlns:h="http://java.sun.com/jsf/html"   
+    xmlns:f="http://java.sun.com/jsf/core"   
+    xmlns:ui="http://java.sun.com/jsf/facelets"   
+    xmlns:p="http://primefaces.org/ui">   
+  
+<h:body>   
+   
+    
+    
+    <h:form id="formMenu" acceptcharset="UTF-8" >
+        
+        
+         <p:ajaxStatus>  
+            
+            <f:facet name="start">  
+                <div style="width:100%;height:100%;position: fixed;background: #fff;z-index:50;top: 0px;left: 0px;filter: Alpha(Opacity=30);opacity: .30">
+                    </div>
+                <p:graphicImage style="width:64px;height:64px;position:fixed;top: 50%;left: 50%;z-index:51;margin-top: -64px;margin-right: -64px" value="/Template/css/images/loadproject.gif" />
+                
+            </f:facet>  
+
+            <f:facet name="complete">  
+                <h:outputText value="" />  
+            </f:facet>  
+            </p:ajaxStatus>
+        
+            <p:growl id="grow1" sticky="false" autoUpdate="true" showSummary="true"/>        
+
+            <p:menu>   
+            <p:submenu label="Menu Inicial">   
+                <p:menuitem value="Obter Lista de Alunos" url="/Telas/listaAlunos.POOII" ajax="true"/> 
+                <p:menuitem value="Obter Lista de Cursos" url="/Telas/listaCursos.POOII" ajax="true"/> 
+                <p:menuitem value="Opção com dialog" onclick="dlgexemplo.show();" ajax="true"/>                 
+            </p:submenu>   
+           </p:menu> 
+            
+    </h:form>   
+
+  <p:dialog id="iddialog" widgetVar="dlgexemplo" modal="true" header="teste" appendToBody="true">
+            
+  </p:dialog>
+    
+</h:body>   
+</html>  

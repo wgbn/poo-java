@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="7ea94587-0bb8-426c-b751-1b9181d8a84f">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="59"/>
+	<queryString language="SQL">
+		<![CDATA[select * from aluno]]>
+	</queryString>
+	<field name="matricula" class="java.lang.Integer"/>
+	<field name="nome" class="java.lang.String"/>
+	<field name="endereco" class="java.lang.String"/>
+	<field name="datanasc" class="java.sql.Timestamp"/>
+	<field name="valormensal" class="java.math.BigDecimal"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<image hAlign="Center">
+				<reportElement uuid="696e7712-1e87-4360-8335-45c037810b1b" stretchType="RelativeToTallestObject" isPrintRepeatedValues="false" mode="Opaque" x="0" y="0" width="120" height="79"/>
+				<imageExpression><![CDATA["C:\\Users\\André Portugal\\Documents\\NetBeansProjects\\ProjetoPrimeFacesPOOIIComMenuEHibernate\\web\\Relatorios\\cherry.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement uuid="acca7879-e571-4822-97bd-5a12942b9bbe" x="120" y="10" width="345" height="51"/>
+				<textElement>
+					<font size="36"/>
+				</textElement>
+				<text><![CDATA[Relatório Exemplo]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="48" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="4f0a496e-c620-4454-b0b7-876a19e7d19b" x="0" y="26" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[Codigo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e6c96d87-6279-4586-b419-6d89d8663de6" x="100" y="26" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[Nome]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="23" splitType="Stretch">
+			<textField>
+				<reportElement uuid="f7befc22-7156-4dca-bc9d-faf4b8ae8221" x="0" y="0" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{matricula}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="20824053-11c9-4dee-9e0b-335275345935" x="100" y="0" width="291" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{nome}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,106 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"   
+    xmlns:h="http://java.sun.com/jsf/html"   
+    xmlns:f="http://java.sun.com/jsf/core"   
+    xmlns:ui="http://java.sun.com/jsf/facelets"   
+    xmlns:p="http://primefaces.org/ui"   
+    template="/Template/modelo/ModeloPaginas.xhtml">   
+  
+    <ui:define name="conteudo">   
+        <h:form id="formGeral">
+            <p:panel header="Lista de Alunos" style="height: 300px;">
+                <p:dataTable id="idal" emptyMessage="Não existem Alunos cadastrados." 
+                             var="al"  rowKey="#{al.matricula}" value="#{alunoBean.alunos}" 
+                             selection="#{alunoBean.alunoSelecionado}" paginator="true" rows="7" 
+                             paginatorPosition="bottom" selectionMode="single" style="width: 720px;" >  
+                
+                    <p:ajax event="rowSelect" listener="#{alunoBean.abrirDialogAlt()}"/>
+                          <p:column headerText="Matricula">  
+                               #{al.matricula}
+                           </p:column>  
+                           <p:column headerText="Nome">  
+                               #{al.nome}
+                           </p:column>  
+
+                           <p:column headerText="Data de Nascimento">  
+                               <h:outputText value="#{al.datanasc}">  
+                                    <f:convertDateTime pattern="dd/MM/yyyy" />  
+                                 </h:outputText>
+                           </p:column>  
+
+                           <p:column headerText="Valor Mensal">  
+                               <h:outputText value="#{al.valormensal}">  
+                                    <f:convertNumber pattern="#,##0.00"/>
+                                 </h:outputText>
+                           </p:column>  
+                    
+                          <p:column style="width:32px;text-align: center">
+                              <p:commandButton oncomplete="dlgEx.show()" icon="ui-icon-trash" title="excluir" update=":formGeral:iddlgEx">
+                                  <f:setPropertyActionListener value="#{al}" target="#{alunoBean.alunoSelecionado}" />
+                              </p:commandButton>
+                          </p:column>
+                    
+                           <f:facet name="footer">  
+                               <p:commandButton id="btcd" value="Inserir" actionListener="#{alunoBean.abrirDialog()}"/>  
+                               
+                               <p:commandButton id="btEmitirAlunoRel" value="Emitir Dados do Aluno" ajax="false">
+                                   <f:setPropertyActionListener target="#{alunoBean.tipoRelatorio}" value="1"/>
+                                   <p:fileDownload value="#{alunoBean.arquivoRetorno}"/>             
+                               </p:commandButton>
+
+                           </f:facet>  
+
+                    
+                       </p:dataTable>
+                       
+            </p:panel>
+            <p:confirmDialog  id="iddlgEx" widgetVar="dlgEx" appendToBody="true" header="Excluindo Aluno...." message="Deseja excluir o Aluno #{alunoBean.alunoSelecionado.nome}?">
+                <p:commandButton value="Sim" icon="ui-icon-check" action="#{alunoBean.excluir()}" immediate="true" process="@this" onsuccess="dlgEx.hide();" update=":formGeral:idal"/>
+                <p:commandButton value="Não" type="button" styleClass="ui-confirmdialog-no" icon="ui-icon-close" onclick="dlgEx.hide();"/>
+            </p:confirmDialog>
+        
+        </h:form>
+    
+        <p:dialog id="iddlgAluno" widgetVar="wdgdlgAl" closable="true" header="Inserindo Alunos" appendToBody="true" modal="true">
+            <h:form>
+            <p:outputPanel autoUpdate="true">
+            <h:panelGrid columns="2">
+                <h:outputLabel value="Nome"/>
+                <p:inputText value="#{alunoBean.aluno.nome}"/>
+                <h:outputLabel value="Endereço"/>
+                <p:inputText value="#{alunoBean.aluno.endereco}"/>
+                <h:outputLabel value="Data de Nascimento"/>
+                <p:calendar value="#{alunoBean.aluno.datanasc}"/>
+                <h:outputLabel value="Valor Mensal"/>
+                <p:inputText value="#{alunoBean.aluno.valormensal}"/>
+                <p:commandButton value="Salvar" action="#{alunoBean.salvar()}" onsuccess="wdgdlgAl.hide()" update=":formGeral:idal"/>
+            </h:panelGrid>
+            </p:outputPanel>        
+            </h:form>    
+        </p:dialog>
+        
+        <p:dialog id="iddlgAlunoAlt" widgetVar="wdgdlgAlalt" closable="true" header="Alterando Alunos" appendToBody="true" modal="true">
+            <h:form>
+            <p:outputPanel autoUpdate="true">
+            <h:panelGrid columns="2">
+                <h:outputLabel value="Matricula"/>
+                <p:inputText value="#{alunoBean.alunoSelecionado.matricula}" readonly="true"/>
+                <h:outputLabel value="Nome"/>
+                <p:inputText value="#{alunoBean.alunoSelecionado.nome}"/>
+                <h:outputLabel value="Endereço"/>
+                <p:inputText value="#{alunoBean.alunoSelecionado.endereco}"/>
+                <h:outputLabel value="Data de Nascimento"/>
+                <p:calendar value="#{alunoBean.alunoSelecionado.datanasc}"/>
+                <h:outputLabel value="Valor Mensal"/>
+                <p:inputText value="#{alunoBean.alunoSelecionado.valormensal}"/>
+                <p:commandButton value="Alterar" action="#{alunoBean.alterar()}" onsuccess="wdgdlgAlalt.hide()" update=":formGeral:idal"/>
+            </h:panelGrid>
+            </p:outputPanel>        
+            </h:form>    
+        </p:dialog>
+
+        
+    </ui:define>   
+
+
+</ui:composition>
+
