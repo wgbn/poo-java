@@ -99,11 +99,8 @@ public class VendaDAO extends DaoUtil {
         
         if (rs.next())
             while (rs.next()){
-                TbVendedorDTO vendedor = new TbVendedorDTO();
-                vendedor.setIdvendedor(rs.getInt("IDVENDEDOR"));
-            
-                TbProdutoDTO produto = new TbProdutoDTO();
-                produto.setIdproduto(rs.getInt("IDPRODUTO"));
+                TbVendedorDTO vendedor = new TbVendedorDTO(rs.getInt("IDVENDEDOR"));
+                TbProdutoDTO produto = new TbProdutoDTO(rs.getInt("IDPRODUTO"));
             
                 todasAsVendas.add(new TbVendaDTO(rs.getInt("IDVENDA"), vendedordao.getPorId(vendedor), produtodao.getPorId(produto), rs.getInt("QTQUANTIDADE")));
             }
