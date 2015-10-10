@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Sistema Exemplo com Modelo</title>
+        <meta content="text/html;charset=UTF-8" http-equiv="Content-Type"/>
+    </h:head>
+
+    <h:body>
+        <h:form id="formMenu" acceptcharset="UTF-8">
+            <p:growl id="grow1" sticky="false" autoUpdate="true" showSummary="true"/>
+            <p:menu>
+                <p:submenu label="Menu Inicial">
+                    <p:menuitem value="Obter Lista de Alunos" url="/telas/listaAlunos.xhtml" ajax="true"/>
+                    <p:menuitem value="Obter Lista de Cursos" url="/telas/listaCursos.xhtml" ajax="true"/>
+                    <p:menuitem value="Opção de Dialog" onclick="PF('digexemplo').show()" ajax="true"/>
+                </p:submenu>
+            </p:menu>
+        </h:form>
+
+        <p:dialog id="iddialog" widgetVar="digexemplo" modal="true" header="teste" appendTo="@(body)">
+            
+        </p:dialog>
+    </h:body>
+
+</html>

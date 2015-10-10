@@ -1,4 +1,4 @@
-import org.hibernate.HibernateException;
+/*import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;
 import org.hibernate.Session;
 import org.hibernate.Query;
@@ -9,9 +9,6 @@ import org.hibernate.service.ServiceRegistryBuilder;
 
 import java.util.Map;
 
-/**
- * Created by walter on 03/10/15.
- */
 public class Main {
     private static final SessionFactory ourSessionFactory;
     private static final ServiceRegistry serviceRegistry;
@@ -50,4 +47,4 @@ public class Main {
             session.close();
         }
     }
-}
+}*/
