@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - acoesdb@localhost" uuid="267ed371-65cb-40f4-9cc1-50d447278c5f">
+    <database-info product="MySQL" version="5.6.25-0ubuntu0.15.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <schema name="" catalog="acoesdb"/>
+    <table name="acao" schema="" catalog="acoesdb" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="datainicio" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="datafim" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="descricao" sqlType="VARCHAR" precision="500" scale="0" nullable="true" jdbcType="12"/>
+      <column name="local" sqlType="VARCHAR" precision="300" scale="0" nullable="false" jdbcType="12"/>
+      <column name="latitude" sqlType="DECIMAL" precision="16" scale="14" nullable="true" jdbcType="3"/>
+      <column name="longitude" sqlType="DECIMAL" precision="16" scale="14" nullable="true" jdbcType="3"/>
+      <column name="valor" sqlType="FLOAT" precision="12" scale="0" nullable="false" jdbcType="7" def="MA=="/>
+      <column name="titulo" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12"/>
+      <column name="datacriacao" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="dataedicao" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <column name="usuario_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="tipoacao_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="cliente_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="fk_acao_cliente1" columns="cliente_id" ref-table="cliente" ref-schema="" ref-catalog="acoesdb" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_acao_tipoacao1" columns="tipoacao_id" ref-table="tipoacao" ref-schema="" ref-catalog="acoesdb" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_acao_usuario1" columns="usuario_id" ref-table="usuario" ref-schema="" ref-catalog="acoesdb" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="fk_usuario_has_acao_acao1" table="usuario_acao" schema="" catalog="acoesdb" columns="acao_id"/>
+      <index name="fk_acao_cliente1_idx" unique="false" columns="cliente_id"/>
+      <index name="fk_acao_tipoacao1_idx" unique="false" columns="tipoacao_id"/>
+      <index name="fk_acao_usuario1_idx" unique="false" columns="usuario_id"/>
+    </table>
+    <table name="cliente" schema="" catalog="acoesdb" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="nome" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12"/>
+      <column name="contato" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12"/>
+      <column name="datacriacao" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="dataedicao" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="fk_acao_cliente1" table="acao" schema="" catalog="acoesdb" columns="cliente_id"/>
+      <exported-key name="fk_telefone_cliente1" table="telefone" schema="" catalog="acoesdb" columns="cliente_id"/>
+    </table>
+    <table name="telefone" schema="" catalog="acoesdb" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="numero" sqlType="VARCHAR" precision="15" scale="0" nullable="false" jdbcType="12"/>
+      <column name="usuario_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="cliente_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="fk_telefone_cliente1" columns="cliente_id" ref-table="cliente" ref-schema="" ref-catalog="acoesdb" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_telefone_usuario" columns="usuario_id" ref-table="usuario" ref-schema="" ref-catalog="acoesdb" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="fk_telefone_cliente1_idx" unique="false" columns="cliente_id"/>
+      <index name="fk_telefone_usuario_idx" unique="false" columns="usuario_id"/>
+    </table>
+    <table name="tipoacao" schema="" catalog="acoesdb" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="tipo" sqlType="VARCHAR" precision="45" scale="0" nullable="false" jdbcType="12"/>
+      <column name="datacriacao" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="dataedicao" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="fk_acao_tipoacao1" table="acao" schema="" catalog="acoesdb" columns="tipoacao_id"/>
+    </table>
+    <table name="usuario" schema="" catalog="acoesdb" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="nome" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12"/>
+      <column name="senha" sqlType="VARCHAR" precision="128" scale="0" nullable="false" jdbcType="12"/>
+      <column name="banco" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="agencia" sqlType="VARCHAR" precision="10" scale="0" nullable="true" jdbcType="12"/>
+      <column name="conta" sqlType="VARCHAR" precision="15" scale="0" nullable="true" jdbcType="12"/>
+      <column name="gerente" sqlType="BIT" precision="1" scale="0" nullable="false" jdbcType="-7" def="YicwJw=="/>
+      <column name="datacriacao" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="dataedicao" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="fk_acao_usuario1" table="acao" schema="" catalog="acoesdb" columns="usuario_id"/>
+      <exported-key name="fk_telefone_usuario" table="telefone" schema="" catalog="acoesdb" columns="usuario_id"/>
+      <exported-key name="fk_usuario_has_acao_usuario1" table="usuario_acao" schema="" catalog="acoesdb" columns="usuario_id"/>
+    </table>
+    <table name="usuario_acao" schema="" catalog="acoesdb" type="TABLE">
+      <column name="usuario_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="acao_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="confirmado" sqlType="BIT" precision="1" scale="0" nullable="false" jdbcType="-7" def="YicwJw=="/>
+      <column name="lider" sqlType="BIT" precision="1" scale="0" nullable="false" jdbcType="-7" def="YicwJw=="/>
+      <column name="datacadastro" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="dataedicao" sqlType="TIMESTAMP" precision="19" scale="0" nullable="false" jdbcType="93" def="Q1VSUkVOVF9USU1FU1RBTVA=" version="true"/>
+      <primary-key name="PRIMARY" columns="usuario_id,acao_id"/>
+      <foreign-key name="fk_usuario_has_acao_acao1" columns="acao_id" ref-table="acao" ref-schema="" ref-catalog="acoesdb" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="fk_usuario_has_acao_usuario1" columns="usuario_id" ref-table="usuario" ref-schema="" ref-catalog="acoesdb" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="fk_usuario_has_acao_acao1_idx" unique="false" columns="acao_id"/>
+      <index name="fk_usuario_has_acao_usuario1_idx" unique="false" columns="usuario_id"/>
+    </table>
+  </data-source>
+</component>

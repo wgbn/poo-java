@@ -18,10 +18,16 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="hibernate.cfg.xml" />
+          <unit-entry name="hibernate.cfg.xml" value="267ed371-65cb-40f4-9cc1-50d447278c5f" />
         </datasource-map>
         <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/java/hiber.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/java/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
+    <facet type="wicketforge" name="Wicket">
+      <configuration>
+        <resourceUrls />
       </configuration>
     </facet>
   </component>
@@ -43,5 +49,6 @@
     <orderEntry type="library" name="jstl:jstl:1.2" level="project" />
     <orderEntry type="library" name="Mojarra-2.2.1" level="project" />
     <orderEntry type="library" name="mysql:mysql-connector-java:5.1.36" level="project" />
+    <orderEntry type="library" name="wicket-7.0.0-M2" level="project" />
   </component>
 </module>

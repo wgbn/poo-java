@@ -4,10 +4,19 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url"/>
-        <property name="connection.driver_class"/>
-        <property name="connection.username"/>
-        <property name="connection.password"/>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/acoesdb</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <mapping class="entity.AcaoEntity"/>
+        <mapping class="entity.ClienteEntity"/>
+        <mapping class="entity.TelefoneEntity"/>
+        <mapping class="entity.TipoacaoEntity"/>
+        <mapping class="entity.UsuarioEntity"/>
+        <mapping class="entity.UsuarioAcaoEntity"/>
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hbm2ddl.auto">update</property> -->
     </session-factory>
