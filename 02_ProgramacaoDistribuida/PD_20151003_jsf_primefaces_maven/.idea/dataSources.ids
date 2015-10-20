@@ -91,4 +91,20 @@
       <index name="fk_usuario_has_acao_usuario1_idx" unique="false" columns="usuario_id"/>
     </table>
   </data-source>
+  <data-source name="MySQL - dbpoo2@localhost" uuid="d7b75dd9-9405-4c8b-845f-dc79113b28a0">
+    <database-info product="MySQL" version="5.6.25-0ubuntu0.15.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <schema name="" catalog="dbpoo2"/>
+    <table name="TbAluno" schema="" catalog="dbpoo2" type="TABLE">
+      <column name="matricula" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="nome" sqlType="VARCHAR" precision="45" scale="0" nullable="true" jdbcType="12"/>
+      <column name="endereco" sqlType="VARCHAR" precision="150" scale="0" nullable="true" jdbcType="12"/>
+      <column name="datanasce" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="valormensal" sqlType="DECIMAL" precision="7" scale="2" nullable="true" jdbcType="3"/>
+      <primary-key name="PRIMARY" columns="matricula"/>
+    </table>
+  </data-source>
 </component>

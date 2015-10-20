@@ -29,7 +29,7 @@ public class ProdutoFacade {
     }
 
     public List<TbProdutoDTO> getProdutos() throws SQLException, ClassNotFoundException {
-        if (this.produtos != null)
+        if (this.produtos == null)
             this.produtos = this.produtodao.getTodos();
         return produtos;
     }
@@ -40,6 +40,31 @@ public class ProdutoFacade {
 
     public void setIdcombo(int idcombo) {
         this.idcombo = idcombo;
+    }
+    
+    public String preparaParaIncluir(){
+        this.produtoselecionado =  new TbProdutoDTO();
+        return "vaiIncluirProduto";
+    }
+    
+    public String finalizaProduto() throws ClassNotFoundException, SQLException {
+        this.produtos = null;
+        
+        this.produtodao.adicionar(produtoselecionado);
+        
+        return "voltaProdutoListar";
+    }
+    
+    public String alteraProduto() throws ClassNotFoundException, SQLException {
+        this.produtodao.alterar(produtoselecionado);
+        this.produtos = null;
+        return "voltaProdutoListar";
+    }
+    
+    public String apagarProduto() throws ClassNotFoundException, SQLException {
+        this.produtodao.excluir(produtoselecionado);
+        this.produtos = null;
+        return "refreshProduto";
     }
     
 }

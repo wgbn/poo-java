@@ -82,9 +82,13 @@ public class ProdutoDAO extends DaoUtil {
         PreparedStatement ps = super.getPrepareStatement("select * from TBPRODUTO");
         ResultSet rs = ps.executeQuery();
         
-        if (rs.next())
+        //if (rs.next())
             while (rs.next())
-                todosOsProdutos.add(new TbProdutoDTO(rs.getInt("IDPRODUTO"), rs.getString("DESCRICAO"), rs.getString("FABRICANTE"), rs.getInt("QTESTOQUE"), rs.getFloat("VLPRECO")));
+                todosOsProdutos.add(new TbProdutoDTO(rs.getInt("IDPRODUTO"), 
+                                                     rs.getString("DESCRICAO"), 
+                                                     rs.getString("FABRICANTE"), 
+                                                     rs.getInt("QTESTOQUE"), 
+                                                     rs.getFloat("VLPRECO")) );
         
         rs.close();
         ps.close();

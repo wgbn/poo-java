@@ -48,9 +48,8 @@ public abstract class DaoUtil implements IF_DAO {
     
     protected int getMaxId(String tabela, String campoId) throws ClassNotFoundException, SQLException {
         int retId = 1;
-        PreparedStatement ps = this.getPrepareStatement("select max(?)+1 from ?");
-        ps.setString(1, tabela);
-        ps.setString(2, campoId);
+        PreparedStatement ps = this.getPrepareStatement("select max("+campoId+")+1 from "+tabela);
+        
         ResultSet rs = ps.executeQuery();
         
         if (rs.next())

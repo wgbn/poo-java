@@ -79,9 +79,13 @@ public class VendedorDAO extends DaoUtil {
         PreparedStatement ps = super.getPrepareStatement("select * from TBVENDEDOR");
         ResultSet rs = ps.executeQuery();
         
-        if (rs.next())
+        //if (rs.next())
             while (rs.next())
-                todos.add(new TbVendedorDTO(rs.getInt("IDVENDEDOR"), rs.getString("NOMEVENDEDOR"), rs.getDate("DTNASCIMENTO")));
+                todos.add(new TbVendedorDTO(
+                        rs.getInt("IDVENDEDOR"), 
+                        rs.getString("NOMEVENDEDOR"), 
+                        rs.getDate("DTNASCIMENTO")
+                ));
         
         rs.close();
         ps.close();

@@ -7,5 +7,11 @@
       <schema-pattern>acoesdb.*</schema-pattern>
       <default-schemas>acoesdb.*</default-schemas>
     </data-source>
+    <data-source name="MySQL - dbpoo2@localhost" uuid="d7b75dd9-9405-4c8b-845f-dc79113b28a0">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>dbpoo2.*</schema-pattern>
+      <default-schemas>dbpoo2.*</default-schemas>
+    </data-source>
   </component>
 </project>
