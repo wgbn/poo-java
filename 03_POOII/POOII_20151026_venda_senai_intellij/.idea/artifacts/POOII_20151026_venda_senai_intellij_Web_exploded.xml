@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="POOII_20151026_venda_senai_intellij:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/POOII_20151026_venda_senai_intellij_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="POOII_20151026_venda_senai_intellij/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="POOII_20151026_venda_senai_intellij" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
