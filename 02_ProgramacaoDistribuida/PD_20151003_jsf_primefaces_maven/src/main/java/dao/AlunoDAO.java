@@ -12,7 +12,7 @@ public class AlunoDAO implements AlunoDAOListener {
 
     private Session sessao;
 
-    public void setSessao Session _sessao){
+    public void setSessao(Session _sessao){
         this.sessao = _sessao;
     }
 

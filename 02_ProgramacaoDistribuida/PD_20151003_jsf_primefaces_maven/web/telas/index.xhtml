@@ -8,7 +8,10 @@
    <ui:define name="conteudo">
        <h:form>
            <p:panel header="Teste" style="height: 300px;">
-
+                <h:outputText value="#{appController.host}"></h:outputText><br/>
+                <h:outputText value="#{appController.port}"></h:outputText><br/>
+                <h:outputText value="#{appController.user}"></h:outputText><br/>
+                <h:outputText value="#{appController.pass}"></h:outputText><br/>
            </p:panel>
        </h:form>
    </ui:define>

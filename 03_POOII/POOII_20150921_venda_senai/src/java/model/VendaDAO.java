@@ -33,7 +33,11 @@ public class VendaDAO extends DaoUtil {
         int ret = ps.executeUpdate();
         ps.close();
         
-        produtodao.setAlterarEstoque(venda.getProduto(),"-");
+        TbProdutoDTO produto = produtodao.getPorId(venda.getProduto());
+        produto.setQtestoque(venda.getQtquantidade());
+        
+        produtodao.setAlterarEstoque(produto,"-");
+        //produtodao.setAlterarEstoqueMetodoWalter(venda.getProduto());
         
         super.fechaTudo();
         

@@ -11,11 +11,13 @@ public class TbVendaDTO {
     private int qtquantidade;
     
     public TbVendaDTO(){
-        
+        this.vendedor = new TbVendedorDTO();
+        this.produto = new TbProdutoDTO();
     }
 
     public TbVendaDTO(int idvenda) {
-        this.idvenda = idvenda;
+        this();
+        this.idvenda = idvenda;        
     }
 
     public TbVendaDTO(int idvenda, TbVendedorDTO vendedor, TbProdutoDTO produto, int qtquantidade) {
