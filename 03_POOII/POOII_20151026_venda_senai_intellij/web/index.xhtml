@@ -9,7 +9,7 @@
         <h:form>
             <h:commandLink action="vaiParaProdutoLista">Produto</h:commandLink><br/>
             <h:commandLink action="vaiParaVendedorLista">Vendedor</h:commandLink><br/>
-            <h:commandLink action="vaiParaVendaLista">Venda</h:commandLink>
+            <h:commandLink action="#{vendaFacade.preparaVenda()}">Venda</h:commandLink>
         </h:form>
     </h:body>
 </html>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="POOII_20151026_venda_senai_intellij:Web">
+    <output-path>$PROJECT_DIR$/out/artifacts/POOII_20151026_venda_senai_intellij_Web</output-path>
+    <root id="archive" name="POOII_20151026_venda_senai_intellij_Web.war">
+      <element id="artifact" artifact-name="POOII_20151026_venda_senai_intellij:Web exploded" />
+    </root>
+  </artifact>
+</component>

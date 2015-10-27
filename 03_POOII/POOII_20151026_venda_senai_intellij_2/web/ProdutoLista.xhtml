@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Lista de Produtos</title>
+        <link type="text/css" rel="stylesheet" href="#{request.contextPath}/templates/css/style.css"/>
+    </h:head>
+    <h:body>
+        <h2>Lista de Produtos</h2>
+        <h:form>
+            <p:commandButton action="#{produtoFacade.preparaParaIncluir()}" value="Incluir novo Produto" styleClass="btnPadrao"/>
+        </h:form>
+        
+        <p>
+            
+            <p:dataTable var="produto" value="#{produtoFacade.produtos}">
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="CÓDIGO"/>
+                    </f:facet>
+                    <h:outputLabel value="#{produto.idproduto}"/>
+                </p:column>
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="DESCRIÇÃO"/>
+                    </f:facet>
+                    <h:outputLabel value="#{produto.descricao}"/>
+                </p:column>
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="FABRICANTE"/>
+                    </f:facet>
+                    <h:outputLabel value="#{produto.fabricante}"/>
+                </p:column>
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="ESTOQUE"/>
+                    </f:facet>
+                    <h:outputLabel value="#{produto.qtestoque}"/>
+                </p:column>
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="VALOR"/>
+                    </f:facet>
+                    <h:outputLabel value="#{produto.vlpreco}">
+                        <f:convertNumber currencySymbol="R$" type="currency"/>
+                    </h:outputLabel>
+                </p:column>
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="AÇÕES"/>
+                    </f:facet>
+                    <h:form>
+                        <p:commandLink value="Vizualizar" action="vaiParaVisualizar">
+                            <f:setPropertyActionListener target="#{produtoFacade.produtoselecionado}" value="#{produto}"/>
+                        </p:commandLink> | 
+                        <p:commandLink value="Editar" action="vaiParaAlterar">
+                            <f:setPropertyActionListener target="#{produtoFacade.produtoselecionado}" value="#{produto}"/>
+                        </p:commandLink> | 
+                        <p:commandLink value="Apagar" action="#{produtoFacade.apagarProduto()}">
+                            <f:setPropertyActionListener target="#{produtoFacade.produtoselecionado}" value="#{produto}"/>
+                        </p:commandLink>
+                    </h:form>
+                </p:column>
+            </p:dataTable>
+            
+        </p>
+        
+        <h:form>
+            <p:commandLink action="voltarIndex">Voltar</p:commandLink>
+        </h:form>
+    </h:body>
+</html>
+

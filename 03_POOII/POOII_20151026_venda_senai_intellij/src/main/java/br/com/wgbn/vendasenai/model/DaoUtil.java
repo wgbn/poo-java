@@ -1,6 +1,6 @@
-package model;
+package br.com.wgbn.vendasenai.model;
 
-import interfaces.IF_DAO;
+import br.com.wgbn.vendasenai.interfaces.IF_DAO;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -21,11 +21,19 @@ public abstract class DaoUtil implements IF_DAO {
     
     public Connection getConnection() throws ClassNotFoundException, SQLException {
         if (cx == null){
-            String url = "jdbc:sqlite:/home/walter/workspace/java/poo/dbs/VendaSANAI.db";
+            /*String url = "jdbc:sqlite:/home/walter/workspace/java/poo/dbs/VendaSANAI.db";
             String login = "";
             String senha = "";
             Class.forName("org.sqlite.JDBC");
-            cx = DriverManager.getConnection(url, login, senha);
+            cx = DriverManager.getConnection(url, login, senha);*/
+
+            String host     = System.getenv("OPENSHIFT_MYSQL_DB_HOST");
+            String port     = System.getenv("OPENSHIFT_MYSQL_DB_PORT");
+            String username = System.getenv("OPENSHIFT_MYSQL_DB_USERNAME");
+            String password = System.getenv("OPENSHIFT_MYSQL_DB_PASSWORD");
+
+            String url = String.format(":mysql://%s:%s/tomcat", host, port);
+            cx = DriverManager.getConnection(url, username, password);
         }
         
         return cx;

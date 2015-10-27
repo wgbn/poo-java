@@ -2,6 +2,14 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group/>
+=======
+        <group>
+            <file>file:/home/walter/workspace/java/poo/03_POOII/POOII_20150921_venda_senai/src/java/controller/ProdutoFacade.java</file>
+            <file>file:/home/walter/workspace/java/poo/03_POOII/POOII_20150921_venda_senai/web/ProdutoEditar.xhtml</file>
+            <file>file:/home/walter/workspace/java/poo/03_POOII/POOII_20150921_venda_senai/web/WEB-INF/faces-config.xml</file>
+        </group>
+>>>>>>> ebb158fe12b74c2530b6fb1cabcaea85a98895f1
     </open-files>
 </project-private>

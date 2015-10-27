@@ -2,7 +2,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:f="http://xmlns.jcp.org/jsf/core">
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
     <h:head>
         <title>Lista de Vendedores</title>
         <link type="text/css" rel="stylesheet" href="#{request.contextPath}/templates/css/style.css"/>
@@ -10,52 +11,52 @@
     <h:body>
         <h2>Lista de Vendedores</h2>
         <h:form>
-            <h:commandButton action="#{vendedorFacade.preparaParaIncluir()}" value="Incluir novo Produto" class="btnPadrao"/>
+            <p:commandButton action="#{vendedorFacade.preparaParaIncluir()}" value="Incluir novo Produto" class="btnPadrao"/>
         </h:form>
         
         <p>
             
-            <h:dataTable border="1" var="vendedor" value="#{vendedorFacade.vendedores}">
-                <h:column>
+            <p:dataTable var="vendedor" value="#{vendedorFacade.vendedores}">
+                <p:column>
                     <f:facet name="header">
                         <h:outputLabel value="CÓDIGO"/>
                     </f:facet>
                     <h:outputLabel value="#{vendedor.idvendedor}"/>
-                </h:column>
-                <h:column>
+                </p:column>
+                <p:column>
                     <f:facet name="header">
                         <h:outputLabel value="NOME:"/>
                     </f:facet>
                     <h:outputLabel value="#{vendedor.nomevendedor}"/>
-                </h:column>
-                <h:column>
+                </p:column>
+                <p:column>
                     <f:facet name="header">
                         <h:outputLabel value="DATA NASCIMENTO"/>
                     </f:facet>
                     <h:outputLabel value="#{vendedor.dtnascimento}"/>
-                </h:column>
-                <h:column>
+                </p:column>
+                <p:column>
                     <f:facet name="header">
                         <h:outputLabel value="AÇÕES"/>
                     </f:facet>
                     <h:form>
-                        <h:commandLink value="Vizualizar" action="vaiVendedorVisualizar">
+                        <p:commandLink value="Vizualizar" action="vaiVendedorVisualizar">
                             <f:setPropertyActionListener target="#{vendedorFacade.vendedorSelecionado}" value="#{vendedor}"/>
-                        </h:commandLink> | 
-                        <h:commandLink value="Editar" action="vaiVendedorEditar">
+                        </p:commandLink> | 
+                        <p:commandLink value="Editar" action="vaiVendedorEditar">
                             <f:setPropertyActionListener target="#{vendedorFacade.vendedorSelecionado}" value="#{vendedor}"/>
-                        </h:commandLink> | 
-                        <h:commandLink value="Apagar" action="#{vendedorFacade.apagarVendedor()}">
+                        </p:commandLink> | 
+                        <p:commandLink value="Apagar" action="#{vendedorFacade.apagarVendedor()}">
                             <f:setPropertyActionListener target="#{vendedorFacade.vendedorSelecionado}" value="#{vendedor}"/>
-                        </h:commandLink>
+                        </p:commandLink>
                     </h:form>
-                </h:column>
-            </h:dataTable>
+                </p:column>
+            </p:dataTable>
             
         </p>
         
         <h:form>
-            <h:commandLink action="voltarIndex">Voltar</h:commandLink>
+            <p:commandLink action="voltarIndex">Voltar</p:commandLink>
         </h:form>
     </h:body>
 </html>

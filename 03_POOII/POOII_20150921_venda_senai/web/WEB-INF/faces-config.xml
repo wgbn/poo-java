@@ -17,6 +17,10 @@
             <from-outcome>vaiParaVendaLista</from-outcome>
             <to-view-id>/VendaLista.xhtml</to-view-id>
         </navigation-case>
+        <navigation-case>
+            <from-outcome>vaiParaVenda</from-outcome>
+            <to-view-id>/Venda.xhtml</to-view-id>
+        </navigation-case>
     </navigation-rule>
     <navigation-rule>
         <from-view-id>/ProdutoLista.xhtml</from-view-id>
@@ -129,6 +133,13 @@
         <navigation-case>
             <from-outcome>vaiVendedorEditar</from-outcome>
             <to-view-id>/VendedorEditar.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <navigation-rule>
+        <from-view-id>/Venda.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>voltaVendaIndex</from-outcome>
+            <to-view-id>/index.xhtml</to-view-id>
         </navigation-case>
     </navigation-rule>
 </faces-config>

@@ -1,0 +1,10 @@
+.btnPadrao {
+    width: 100%;
+    box-sizing: border-box;
+    padding: .5em;
+    text-align: center;
+    border: 0;
+    outline: none;
+    background-color: blue;
+    color: #fff;
+}
