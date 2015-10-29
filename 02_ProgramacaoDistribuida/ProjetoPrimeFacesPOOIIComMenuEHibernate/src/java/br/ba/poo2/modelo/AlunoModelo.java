@@ -9,8 +9,7 @@ import java.util.List;
 import javax.faces.model.ListDataModel;
 import org.primefaces.model.SelectableDataModel;
 
-public class AlunoModelo extends ListDataModel<Aluno>
-implements SelectableDataModel<Aluno>{
+public class AlunoModelo extends ListDataModel<Aluno> implements SelectableDataModel<Aluno> {
     public AlunoModelo() {   }
     public AlunoModelo(List<Aluno> list) {
         super(list);
