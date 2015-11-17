@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <p>Visualização de produto</p>
+            <br/>
+            <table border="0">
+                <tbody>
+                    <tr>
+                        <td><h:outputLabel value="CÓDIGO :"/></td>
+                        <td><h:outputLabel value="#{produtoFacade.produtoselecionado.idproduto}"/></td>
+                    </tr>
+                    <tr>
+                        <td><h:outputLabel value="DESCRIÇÃO :"/></td>
+                        <td><h:outputLabel value="#{produtoFacade.produtoselecionado.dsecricao}"/></td>
+                    </tr>
+                    <tr>
+                        <td><h:outputLabel value="FABRICANNTE :"/></td>
+                        <td><h:outputLabel value="#{produtoFacade.produtoselecionado.fabricante}"/></td>
+                    </tr>
+                    <tr>
+                        <td><h:outputLabel value="ESTOQUE :"/></td>
+                        <td><h:outputLabel value="#{produtoFacade.produtoselecionado.qtestoque}"/></td>
+                    </tr>
+                    <tr>
+                        <td><h:outputLabel value="PREÇO :"/></td>
+                        <td><h:outputLabel value="#{produtoFacade.produtoselecionado.vlpreco}"/></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br/>
+            <p:commandButton value="Editar" action="VaiParaeditar"
+                                 style="width: 50%"/>
+            <p:commandButton value="Voltar"
+                                 style="width: 49%"
+                                 action="VoltaParaListar"/>
+            
+            <hr />
+            
+            <p>
+                <p:commandButton action="#{manualFacade.preparaCadastrarManual()}" value="Cadastrar Novo Manual"></p:commandButton>
+            </p>
+            
+            <p><h:outputText value="#{manualFacade.produto.dsecricao}"/></p>
+            <p:dataTable var="manual" value="#{manualFacade.manuais}"
+                         paginator="false" rows="50">
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="CÓDIGO"/>
+                    </f:facet>
+                    <h:outputLabel value="#{manual.idmanual}"/>
+                </p:column>
+                
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="DESCRIÇÃO"/>
+                    </f:facet>
+                    <h:outputLabel value="#{manual.dsinstrucao}"/>
+                </p:column>
+                
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="DATA VALIDADE"/>
+                    </f:facet>
+                    <h:outputLabel value="#{manual.dtvalidade}">
+                        <f:convertDateTime parent="dd/MM/yyyy"></f:convertDateTime>
+                    </h:outputLabel>
+                </p:column>
+                
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="AÇÃO"/>
+                    </f:facet>
+                    <h:commandLink value="Editar" action="#{manualFacade.vaiParaEditarManual()}">
+                        <f:setPropertyActionListener 
+                            target="#{manualFacade.manualselecionado}"
+                            value="#{manual}"/>             
+                    </h:commandLink>
+                    
+                    <h:outputLabel value=" | "/>
+                    <h:commandLink value="Deletar" action="#{manualFacade.deletarManual()}">
+                        <f:setPropertyActionListener 
+                            target="#{manualFacade.manualselecionado}"
+                            value="#{manual}"/>
+                    </h:commandLink>
+                </p:column>
+                
+            </p:dataTable>
+        </h:form>
+    </h:body>
+</html>
+

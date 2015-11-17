@@ -2,12 +2,18 @@
 <Scene Scope="Project" version="2">
     <Scope Scope="Faces Configuration Only"/>
     <Scope Scope="Project">
-        <Node id="VendaLista.xhtml" x="150" y="150" zoom="true"/>
-        <Node id="ProdutoLista.xhtml" x="720" y="152" zoom="true"/>
+        <Node id="ProdutoEditar.xhtml" x="1150" y="150" zoom="true"/>
         <Node id="index.xhtml" x="150" y="300" zoom="true"/>
-        <Node id="templates/modelos/ModeloPagina.xhtml" x="400" y="300" zoom="true"/>
+        <Node id="Venda.xhtml" x="150" y="600" zoom="true"/>
         <Node id="VendedorLista.xhtml" x="400" y="150" zoom="true"/>
+        <Node id="templates/modelos/ModeloPagina.xhtml" x="400" y="300" zoom="true"/>
         <Node id="ProdutoIncluir.xhtml" x="734" y="-177" zoom="true"/>
+        <Node id="VendaLista.xhtml" x="150" y="150" zoom="true"/>
+        <Node id="ProdutoVisualizar.xhtml" x="900" y="150" zoom="true"/>
+        <Node id="VendedorEditar.xhtml" x="150" y="450" zoom="true"/>
+        <Node id="VendedorVisualizar.xhtml" x="650" y="300" zoom="true"/>
+        <Node id="VendedorIncluir.xhtml" x="400" y="450" zoom="true"/>
+        <Node id="ProdutoLista.xhtml" x="720" y="152" zoom="true"/>
     </Scope>
     <Scope Scope="All Faces Configurations"/>
 </Scene>

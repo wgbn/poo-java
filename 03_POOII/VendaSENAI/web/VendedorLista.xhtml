@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Lista de Vendedores</title>
+    </h:head>
+    <h:body>
+        <p>Lista de Vendedores</p>
+        <h:form>
+            <br/>
+            <p:commandButton value="Incluir novo vendedor" action="#{vendedorFacade.preparaParaIncluir()}" 
+                             style="width: 100%"/>
+            <br/>
+            <p:commandButton value="Voltar para o menu"
+                             style="width: 100%"
+                             action="voltarIndex"/>
+            <br/>
+            <p:dataTable var="vendedor" value="#{vendedorFacade.vendedores}"
+                         paginator="true" rows="10"  
+                         paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"  
+                         rowsPerPageTemplate="5,10,15">
+                <f:facet name="header">  
+                    Lista de Todos os Vendedores Cadastrados  
+                </f:facet>
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="CÓDIGO"/>
+                    </f:facet>
+                    <h:outputLabel value="#{vendedor.idvendedor}"/>
+                </p:column>
+                
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="NOME"/>
+                    </f:facet>
+                    <h:outputLabel value="#{vendedor.nomevendedor}"/>
+                </p:column>
+                
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="DT NASCCIMENTO"/>
+                    </f:facet>
+                    <h:outputLabel value="#{vendedor.dtnascimento}">
+                        <f:convertDateTime parent="dd/MM/yyyy"></f:convertDateTime>
+                    </h:outputLabel>
+                </p:column>
+                
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="AÇÃO"/>
+                    </f:facet>
+                    <h:commandLink value="Visualizar" action="VaiParaVisualizar">
+                        <f:setPropertyActionListener 
+                            target="#{vendedorFacade.vendedorSelecionado}"
+                            value="#{vendedor}"/>           
+                    </h:commandLink>
+                    
+                    <h:outputLabel value=" | "/>
+                    <h:commandLink value="Editar" action="VaiParaeditar">
+                        <f:setPropertyActionListener 
+                            target="#{vendedorFacade.vendedorSelecionado}"
+                            value="#{vendedor}"/>
+                    </h:commandLink>
+                    
+                    <h:outputLabel value=" | "/>
+                    <h:commandLink value="Deletar" action="#{vendedorFacade.deletaProduto()}">
+                        <f:setPropertyActionListener 
+                            target="#{vendedorFacade.vendedorSelecionado}"
+                            value="#{vendedor}"/>
+                    </h:commandLink>
+                </p:column>
+                
+            </p:dataTable>
+        </h:form>
+    </h:body>
+</html>
+

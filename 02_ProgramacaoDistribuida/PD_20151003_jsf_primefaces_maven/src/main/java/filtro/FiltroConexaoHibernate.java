@@ -10,12 +10,10 @@ public class FiltroConexaoHibernate implements Filter {
 
     private SessionFactory sf;
 
-    @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         this.sf = HibernateUtil.getSessionFactory();
     }
 
-    @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         try {
             this.sf.getCurrentSession().beginTransaction();
@@ -33,7 +31,6 @@ public class FiltroConexaoHibernate implements Filter {
         }
     }
 
-    @Override
     public void destroy(){
         /* destroy */
     }

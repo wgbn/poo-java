@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <p>Venda do produduto pelo vendedor</p>
+            <br/>
+            <h:panelGrid columns="2" cellpadding="1">
+                <h:outputLabel value="VENDEDOR :"/>
+                <h:selectOneMenu id="cboVendedor"
+                                 value="#{vendaFacade.vendaselecionada.vendedor.idvendedor}"
+                                 style="width: 250px">
+                    <f:selectItem itemLabel="Selecione um item" itemValue="-1"/>
+                    <f:selectItems value="#{vendedorFacade.vendedores}"
+                                   var="vend"
+                                   itemLabel="#{vend.nomevendedor}"
+                                   itemValue="#{vend.idvendedor}"/>
+                </h:selectOneMenu>
+
+                <h:outputLabel value="PRODUTO :"/>
+                <h:selectOneMenu id="cboProduto"
+                                 value="#{vendaFacade.vendaselecionada.produto.idproduto}"
+                                 style="width: 250px">
+                    <f:selectItem itemLabel="Selecione um item" itemValue="-1"/>
+                    <f:selectItems value="#{produtoFacade.produtos}"
+                                   var="prod"
+                                   itemLabel="#{prod.dsecricao}"
+                                   itemValue="#{prod.idproduto}"/>
+                </h:selectOneMenu>
+
+                <h:outputLabel value="QUANTIDADE :"/>
+                <h:inputText id="txtValor" 
+                             value="#{vendaFacade.vendaselecionada.qtquantidade}"/>
+            </h:panelGrid>
+            <br/>
+            <p:commandButton value="Salvar" action="#{vendaFacade.finalizaVenda()}"
+                             style="width: 50%"/>
+            <p:commandButton value="Voltar" action="VoltaMenu"
+                             style="width: 49%"/>
+        </h:form>
+        
+        <p:dataTable var="venda" value="#{vendaFacade.vendas}"
+                         paginator="true" rows="10"  
+                         paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"  
+                         rowsPerPageTemplate="5,10,15">
+                <f:facet name="header">  
+                    Lista vendas do vendedor 
+                </f:facet> 
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="COD. VENDA"/>
+                    </f:facet>
+                    <h:outputLabel value="#{venda.idvenda}"/>
+                </p:column>
+                
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="VENDEDOR"/>
+                    </f:facet>
+                    <h:outputLabel value="#{venda.vendedor.nomevendedor}"/>
+                </p:column>
+                
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="PRODUTO VENDIDO"/>
+                    </f:facet>
+                    <h:outputLabel value="#{venda.produto.dsecricao}"/>
+                </p:column>
+                
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="QUANTIDADE"/>
+                    </f:facet>
+                    <h:outputLabel value="#{venda.qtquantidade}"/>
+                </p:column>
+                
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputLabel value="VALOR"/>
+                    </f:facet>
+                    <h:outputLabel value="#{(venda.qtquantidade * venda.produto.vlpreco)}">
+                        <f:convertNumber currencySymbol="R$"
+                                         type="currency"/>
+                    </h:outputLabel>
+                </p:column>
+                
+            </p:dataTable>
+        
+    </h:body>
+</html>
+

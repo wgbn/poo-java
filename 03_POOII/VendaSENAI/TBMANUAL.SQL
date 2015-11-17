@@ -1,0 +1,6 @@
+CREATE TABLE [TBMANUAL] (
+[idManual] INTEGER  NOT NULL PRIMARY KEY,
+[idProduto] INTEGER  NOT NULL,
+[dsInstrucao] VARCHAR(250)  NULL,
+[dtValidade] DATE  NULL
+)

@@ -14,7 +14,6 @@
           <element id="library" level="project" name="jstl:jstl:1.2" />
           <element id="library" level="project" name="Mojarra-2.2.1" />
           <element id="library" level="project" name="mysql:mysql-connector-java:5.1.36" />
-          <element id="library" level="project" name="wicket-7.0.0-M2" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="PD_20151003_jsf_primefaces_maven/web/Web" />
