@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="WeHaveSciencePU" uuid="d0e82084-07cd-4acd-b838-0ec4aec59551">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>wehavescience.*</schema-pattern>
+      <default-schemas>wehavescience.*</default-schemas>
+    </data-source>
+  </component>
+</project>

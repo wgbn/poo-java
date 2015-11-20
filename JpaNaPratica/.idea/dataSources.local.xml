@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="JpaNaPratica" uuid="11e31bc9-057c-4f4e-bc4e-d8180a7c5b69">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>jpapratica.*</schema-pattern>
+      <default-schemas>jpapratica.*</default-schemas>
+    </data-source>
+  </component>
+</project>
