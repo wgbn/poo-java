@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Realizar Venda</title>
+    </h:head>
+    <h:body>
+        <h2>Venda de produto pelo vendedor</h2>
+        
+        <h:form>
+            <h:panelGrid columns="2" cellpadding="1" style="width: 50%;">
+                
+                <h:outputLabel value="VENDEDOR:"/>
+                <p:selectOneMenu id="cboVendedor" value="#{vendaFacade.vendaSelecionada.vendedor.idvendedor}" style="width: 100%;">
+                    <f:selectItem itemLabel="Selecione um vendedor" itemValue="-1"/>
+                    <f:selectItems value="#{vendedorFacade.vendedores}" var="vend" itemLabel="#{vend.nomevendedor}" itemValue="#{vend.idvendedor}"/>
+                </p:selectOneMenu>
+                
+                <h:outputLabel value="PRODUTO:"/>
+                <p:selectOneMenu id="cboProduto" value="#{vendaFacade.vendaSelecionada.produto.idproduto}" style="width: 100%;">
+                    <f:selectItem itemLabel="Selecione um produto" itemValue="-1"/>
+                    <f:selectItems value="#{produtoFacade.produtos}" var="prod" itemLabel="#{prod.descricao}" itemValue="#{prod.idproduto}"/>
+                </p:selectOneMenu>
+                
+                <h:outputLabel value="QTDE:"/>
+                <p:inputText id="txtQtde" value="#{vendaFacade.vendaSelecionada.qtquantidade}"/>
+            </h:panelGrid>
+            
+            <p:commandButton value="Salvar" action="#{vendaFacade.finalizaVenda()}"/>
+            <p:commandButton value="Voltar" action="voltaVendaIndex"/>
+        </h:form>
+    </h:body>
+</html>
+

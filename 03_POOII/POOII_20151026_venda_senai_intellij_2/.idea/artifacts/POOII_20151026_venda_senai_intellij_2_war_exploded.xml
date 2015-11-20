@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="POOII_20151026_venda_senai_intellij_2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/POOII_20151026_venda_senai_intellij_2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="POOII_20151026_venda_senai_intellij_2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="POOII_20151026_venda_senai_intellij_2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Mojarra-2.2.1" />
+          <element id="library" level="project" name="PrimeFaces-5.2" />
+          <element id="library" level="project" name="com.mysql.jdbc:com.springsource.com.mysql.jdbc:5.1.6" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
